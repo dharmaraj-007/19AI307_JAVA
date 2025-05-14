@@ -1,44 +1,54 @@
 # Ex.No:7(E)  POLYMORPHISM
 
 ## AIM:
-To implement method overloading in Java to calculate the sum of two and three numbers demonstrating compile-time polymorphism
+To write a Java program that adds two numbers using a Thread created with the Runnable interface, taking the two integers as user input.
 ## ALGORITHM :
-1.	Start the program.
-2.	Create a class named SumExample.
-3.	Inside the class, define:
-     a.	A method sum(int a, int b) to calculate the sum of two numbers.
-     b.	An overloaded method sum(int a, int b, int c) to calculate the sum of three numbers.
-4.	In the main() method:
-      a.	Create an object of the SumExample class.
-      b.	Call both versions of the sum() method with appropriate arguments.
-      c.	Print the results.
-5.	End the program.
-
+1.Import Scanner for user input.
+2.Create a class AdditionTask that implements the Runnable interface.
+3.In the AdditionTask constructor, accept two integers.
+4.In the run() method, add the two numbers and display the result.
+5.In the main() method, get user input for two integers.
+6.Create a Thread object by passing an instance of AdditionTask and start the thread.
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Method Overloading in Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+class prog extends Thread
+    {  
+        Scanner sc=new Scanner(System.in);
+        void display(){
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int v=n+m;
+        System.out.print("Result: "+v);
+    }
+    public static void main(String args[])
+    {  
+        prog obj=new prog();
+        obj.display();
+       
+     
+     }  
+    }
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/46a1169c-a90a-48c6-8464-376509978369)
 
 
 ## RESULT:
 
-Thus the  java program successfully demonstrates method overloading, showing compile-time polymorphism by calculating the sum of two and three numbers using methods with the same name but different parameter lists..
+The program adds two user-input numbers in a thread created using the Runnable interface.
 
 

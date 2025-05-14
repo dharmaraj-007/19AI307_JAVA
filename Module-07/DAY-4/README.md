@@ -1,37 +1,49 @@
 # Ex.No:7(D) SYNCHRONIZATION
 ## AIM:
- To Develop a Java Program to perform static synchronization method for the below Scenario Create a Class Display with synchronized void wish method in that perform "Welcome : Message. Note :Assume Sleep as 400 ms i.e Thread.Sleep(400)
- 
+ To write a Java program that performs cube calculation using static synchronization, ensuring that only one thread accesses the cube() method at a time, even across different instances.
 ## ALGORITHM :
-1.	1.	Start the Program.
-2.	Define class `Display`:
--	a) Create a `Scanner` object `sc` for input
--	b) Define a synchronized method `wish(String str)`:
-- i) Print "Welcome :: " followed by `str` (twice)
-3.	End
-
-
+1.Create a class Table with a static synchronized void cube(int n) method.
+2.Inside cube, compute and print the cube of the given number, with a Thread.sleep(400) to simulate delay.
+3.Create a class extending Thread, say MyThread, which calls Table.cube(n) in its run() method.
+4.In main(), create multiple threads passing different numbers and start them.
+5.Observe synchronized execution — one thread at a time accesses the cube() method.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber:  212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+class Table
+    {
+        void cube(int n){
+            synchronized(this){
+                int temp=1;
+                for(int i=1;i<=n;i++)
+                {
+                    int j=i;
+                    System.out.println("cube for range value " +n+" "+i+":" + (j*j*j));
+                    try
+                    {
+                        Thread.sleep(400);
+                    }
+                    catch(Exception e){
+                        System.out.println(e);
+                    }
+                }
+            }
+        }
+    }
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/cfa8120d-4783-48aa-a2d1-650cc08596e5)
 
 ## RESULT:
 Thus the java program for synchronization was executed successfully.

@@ -1,49 +1,53 @@
 # Ex.No:11(C)             JAVA LINKED HASHMAP
  ## AIM :
-
-To Create a java program to display the contains key of 104 and to retrieve the key and value using linked hash map.
+To retrieve a value from a LinkedHashMap using a specific key (in this case, the key is 100).
 
 ## ALGORITHM :
+1.Create a LinkedHashMap and add key-value pairs to it.
+2.Use the get() method to retrieve the value associated with the key 100.
+3.Display the retrieved value.
 
-1.	Start the Program
-2.	Import `java.util.*`
-3.	Define class `A` with `main` method:
--	a) Initialize `Scanner` and read integer `n`
--	b) Create a `LinkedHashMap` named `hash` to store integer keys and string values
-4.	Use a loop to:
--	a) Read an integer and string from the user
--	b) Add the integer as the key and the string as the value in `hash`
-5.	Use an enhanced `for` loop to iterate through `hash` and print each key-value pair
-6.	Check if the `hash` contains the key `104` and print the result
-7.	End
+
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a JAVA LINKED HASH MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        LinkedHashMap<Integer,String>t=new LinkedHashMap<Integer,String>();
+        int size=sc.nextInt();
+        for(int i=0;i<size;i++){
+            Integer a=sc.nextInt();
+            String b=sc.next();
+            t.put(a,b);
+        }
+        for(Map.Entry m:t.entrySet()){
+            System.out.println(m.getKey()+" "+m.getValue());
+        }
+        Integer key=100;
+        String value=t.get(key);
+        System.out.println("value: "+ value);
+    }
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/ccd0ff84-67e5-4cf0-9611-adc81321426e)
 
 ## RESULT:
-Thus the  java program to display the contains key of 104 and to retrieve the key and value using linked hash map was executed successfully.
-
-
-
+The program successfully retrieves the value "Charlie" from the LinkedHashMap using the key 100 and displays it.
 
 
 

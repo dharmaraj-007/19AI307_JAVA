@@ -1,36 +1,39 @@
 # Ex.No:9(A)          DATA I/O STREAM
 ## AIM:
-To create a Java Program to store a String Value in a file "testout.txt" using Data Output Stream.
+To read a double value from a file "OutputFile.txt" using DataInputStream and the predefined function readDouble().
 
 ## ALGORITHM :
-1.  The program creates testout.txt and initializes FileOutputStream and DataOutputStream. It prompts the user to enter a string, writes it to testout.txt using writeUTF(), and then closes the streams.
-2.	It reopens testout.txt with FileInputStream and DataInputStream, reads the stored string using readUTF(), displays it, and then closes the streams.
-3.	It deletes testout.txt.
-4.	After deletion, it tries to read an integer from testout.txt, which causes an error because the file no longer exists.
-5.	The program catches and displays an IOException message if any file-related error occurs, including the attempt to read after deletion.
-
+```
+1.Create a FileInputStream object for "OutputFile.txt".
+2.Wrap it in a DataInputStream.
+3.Use readDouble() to read the double value from the file.
+4.Print the value.
+5.Close the stream.
+```
 
 ## PROGRAM:
  ```
 /*
 Program to implement a DATA I/O STREAM using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+FileInputStream input=new FileInputStream("OutputFile.txt");
+DataInputStream di=new DataInputStream(input);
+double data=di.readDouble();
+System.out.println(data);
+input.close();
+di.close();
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/7c199ea0-778d-4e03-8172-7e44072b990e)
 
 ## RESULT:
-Thus the Java Program to store a String Value in a file "testout.txt" using DataOutputStream was executed and verified successfully.
+The program successfully reads and displays a double value from "OutputFile.txt" using the readDouble() method of DataInputStream.
 

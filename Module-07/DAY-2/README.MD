@@ -1,48 +1,56 @@
 # Ex.No:7(B) EXCEPTION HANDLING-FINALLY
 ## AIM:
-To Write a Java program to demonstrate control flow of try-catch-finally clause when NumberFormat Exception occur in try block and handled in catch block
-
+To demonstrate the control flow of try-catch-finally in Java when an ArrayIndexOutOfBoundsException occurs in the try block and is handled in the catch block.
 
 ## ALGORITHM :
-1.	Start the Program
-2.	Import `java.util.*` for input handling
-3.	Define class `HelloWorld`:
--	a) In `main` method, create `Scanner` object `sc` for input
-4.	Use `try` block to:
--	a) Read a string `str` from user input
--	b) Convert `str` to an integer using `Integer.parseInt()` and print the result
-5.	Use `catch` block to handle `NumberFormatException`:
--	a) If the string can't be converted to an integer, print the exception message
-6.	Use `finally` block to:
--	a) Print "Finally block executed"
-7.	After the `try-catch-finally` block, print "Outside try-catch-finally clause"
-8.	End
-
-
+1.Declare and initialize an integer array.
+2.Use a try block to access an invalid array index (causing ArrayIndexOutOfBoundsException).
+3.Catch the exception in a catch block and display an error message.
+4.Use a finally block to print a statement that executes regardless of the exception.
+5.Execute the program to observe the flow through try, catch, and finally.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Exception Handling-Finally using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class HelloWorld {
+    public static void main(String[] args) 
+    {
+     
+        int[] arr = new int[4];
+         
+        try
+        {
+           int i=arr[4];
+           System.out.println("Inside try block");
+        }
+        catch(ArrayIndexOutOfBoundsException ex){
+            System.out.println("Exception caught in catch block");
+        }
+        finally
+        {
+            System.out.println("finally block executed");
+        }
+         
+        
+      
+        System.out.println("Outside try-catch-finally clause");
+    }
+}
+```
 
 ## OUTPUT:
 
-
+https://github.com/Pryasaee/19AI307_JAVA/blob/d9de50ae8ab08c266084c5cd0e9f5eae8de3ea32/Module-07/DAY-2/5.png
 
 ## RESULT:
-Thus the Java program to demonstrate control flow of try-catch-finally clause when NumberFormatException occur in try block and handled in catch block was executed successfully.
-
-
+The program shows that the catch block handles the exception and the finally block always executes.
 

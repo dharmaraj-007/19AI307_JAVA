@@ -1,42 +1,50 @@
 # Ex.No:6(B) MULTI-LEVEL INHERITANCE
 
 ## AIM:
-To Develop a Java program to perform Multilevel Inheritance to calculate the area of circle..
-
+To demonstrate class inheritance in Java by creating a GrandParent, Parent, and Child class, where each class has its own constructor, and the constructors are accessed using a Child class object.
 ## ALGORITHM :
-1.	Start the Program.
-2.	Define class `Shapes`:
--	a) Method `print_shape()` to print "Shapes Class"
-3.	Define class `Circle` that extends `Shapes`:
--	a) Declare integer `rad`
--	b) Method `get()` to read `rad` from user input
-4.	Define class `Area` that extends `Circle`:
--	a) Method `cal()` to calculate `result = 3.14 * rad * rad` and print "Area of Circle is " followed by `result`
-5.	In `Main` class `main` method:
--	a) Create `Area` object `obj`
--	b) Call `print_shape()`, `get()`, and `cal()` on `obj` to display shape type, read radius, and calculate area
-6.	End
+1.Create a GrandParent class with a constructor that displays "Grand Parent Class".
+2.Create a Parent class that extends GrandParent and has its own constructor to display "Parent Class".
+3.Create a Child class that extends Parent and has its own constructor to display "Child Class".
+4.In the Main class, create a Child class object and access all the constructors, displaying the respective messages.
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a MultiLevel Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+class GrandParent{
+    public GrandParent(){
+        System.out.println("Grand_Parent Class");
+    }
+}
+class Parent extends GrandParent{
+    public Parent(){
+        System.out.println("Parent Class");
+    }
+}
+class Child extends Parent{
+    public Child(){
+        System.out.println("Child Class");
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Child obj=new Child();
+    }
+}
+```
 
 ## OUTPUT:
 
+https://github.com/Pryasaee/19AI307_JAVA/blob/6d2632382624c0841acae3fc0439ccfcf3f0b050/Module-06/DAY-2/4.png
 
 
 ## RESULT:

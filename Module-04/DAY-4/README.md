@@ -1,27 +1,14 @@
 # Ex.No:4(D) FINAL & STATIC IN JAVA
 
 ## AIM:
-   To create a Java program to perform final & static keyword for below situation Employee object contains member 'Emp_Id'. It contains object named name, which contains its own informations such as Fname, Mname, Lname.
- 
+To create a Class with Name, Id, and a final Year variable, and to print the member variables in the output using a Main class.
+  
 ## ALGORITHM :
-1.	Start the Program.
-2.	Define class `Name`:
--	a) Declare three `String` variables: `Fname`, `Mname`, and `Lname`
--	b) Define method `dispName(String fn, String mn, String ln)`:
--	i) Print the full name using the passed parameters `fn`, `mn`, and `ln`
-3.	Define class `Employee`:
--	a) Declare an integer variable `Emp_Id`
--	b) Create an instance of `Name` called `obj`
--	c) Define method `disp(int id)`:
--	i) Print the employee ID
--	ii) Create a new `Name` object and call `dispName("B", "Leo", "John")` to display the name
-4.	Define `Main` class with `main` method:
--	a) Create an `Employee` object `emp`
--	b) Call `emp.disp(101)` to display the employee details
-5.	End
-
-
-
+1.Define a final class Class with three member variables: Name, Id, and Year.
+2.Make Year a constant with the value "3rd Year".
+3.Create a constructor to initialize Name and Id.
+4.Implement a print() method to display the Name, Id, and Year.
+5.Create a Main class to instantiate and access the print() method of Class.
 
 
 
@@ -29,22 +16,37 @@
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+class Company{
+    String name;
+    String Id;
+    final String year;
+    Company(String na,String id,String year){
+        this.name=na;
+        this.Id=id;
+        this.year=year;
+    }
+    void print(){
+        System.out.println("Student Details are, \nId is "+this.Id+"\nName is "+this.name+"\nYear of Studying is "+this.year);
+    }
+    }
+    public class Main{
+        public static void main(String[] args){
+            Company obj=new Company("David","S201","3th Year");
+            obj.print();
+        }
+    }
+   
+```
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/41c4a632-b501-4184-8bdb-dc8a7cb68d0f)
 
 ## RESULT:
-Thus, the java program to perform final & static keyword was executed successfully.
+The program displays "Name: David, Id: S201, Year: 3rd Year" in the output.

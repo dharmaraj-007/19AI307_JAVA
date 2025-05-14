@@ -1,43 +1,48 @@
 # Ex.No:6(A)  INNER CLASS
 ## AIM:
-To create a Java Program to implement Method Local Inner Class.
-
+To demonstrate the usage of a method-local inner class in Java by creating a Department class that has an inner class Inner for displaying the department's name.
 ## ALGORITHM :
-1.  Start the Program.
-2.	Define outer class `name`:
--	a) Declare `String name` and initialize it to "Johnson"
--	b) Define inner class `inner`:
-- i) Define method `display()` that prints "Name given in Outer Class is " followed by `name`
-3.	In the `main` method of `name` class:
--	a) Create an instance `obj` of the `name` class
--	b) Create an instance `obj2` of the inner class `inner` using `obj`
--	c) Call `display()` on `obj2` to print the outer class name
-4.	End
-
-
-
-
-
+1.Create a Department class with a string "Financial and Management Department".
+2.Define a method display() in the Department class, which contains a method-local inner class Inner.
+3.The Inner class will have a print() method that displays the department name.
+4.In the main() method, create an object of the Department class and 
+5.access both the display() and the inner class functionality.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Inner Class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
+```
+public class Department{
+    String departmentName = "Financial and Management Department";
+    public void display(){
+        class Inner{
+            public void print(){
+                System.out.println("Department is " + departmentName);
+            }
+        }
+        Inner inner=new Inner();
+        inner.print();
+        System.out.println("Company is ABC Industries");
+        
+    }
+    public static void main(String[] args){
+        Department department=new Department();
+        department.display();
+    }
+}
 
-
-
-
-
-
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/65277c43-0931-438b-9867-7a1fb43c20a5)
 
 
 ## RESULT:

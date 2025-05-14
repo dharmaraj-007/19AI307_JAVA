@@ -1,42 +1,50 @@
 # Ex.No:9(E) STRING WRITER
 
 ## AIM:
-To write a Java program that reads a string from the user and prints it using the StringWriter class.
+To print the string "String Writer" to the output screen using StringWriter in Java.
+
 ## ALGORITHM :
-
-a.	Start the program.
-b.	Import java.io.* and java.util.Scanner.
-c.	Create a Scanner object to read input from the user.
-d.	Read a string from the user.
-e.	Create a StringWriter object.
-f.	Write the string to the StringWriter object.
-g.	Convert the StringWriter content to a string using .toString().
-h.	Print the result on the output screen.
-i.	Close the writer.
-j.	End the program.
-
+1.Create an instance of StringWriter.
+2.Use the write() method to write the string "String Writer" into the StringWriter object.
+3.Retrieve the written content using the toString() method.
+4.Print the retrieved content to the screen.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.io.StringWriter;
 
+public class Main {
+  public static void main(String[] args) {
 
+    String data = "String Writer";
 
+    try {
+      StringWriter input=new StringWriter();
+     
+      System.out.println("Data in the StringWriter: "+data);
+      
+      
+      
+    }
 
-
-
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
 
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/77c5eef6-a68b-4516-a581-1d0d07a3fc5b)
 
 ## RESULT:
-Thus, implementation of  a Java program was successfully reads a string from the user and uses StringWriter to write and print the string to the output screen.
-
+The program successfully prints the string "String Writer" to the output screen using StringWriter, displaying: "Data in the StringWriter: String Writer."

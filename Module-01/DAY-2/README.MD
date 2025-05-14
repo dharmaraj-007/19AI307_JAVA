@@ -24,21 +24,28 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Bala R
+RegisterNumber: 212222220007
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class Demo
+{
+    public static void main(String[] args){
+     Scanner s=new Scanner(System.in);
+    double a=s.nextDouble();
+    double b=s.nextDouble();
+    System.out.println(a < 50 || a < b);
+    }
+}
+```
 
 ## OUTPUT:
 
+https://github.com/Pryasaee/19AI307_JAVA/blob/160228fb1b243ffa08abe0a2f84e173683ef9cfd/Module-01/DAY-2/java.png
 
 
 ## RESULT:
