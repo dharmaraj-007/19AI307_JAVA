@@ -4,12 +4,12 @@
 To write a Java program to demonstrate a mutable string using StringBuilder by modifying the content of the same object.
 
 ## ALGORITHM :
-1.Start the program.
-2.Create a StringBuilder object with an initial string.
-3.Display the original string.
-4.Modify the string using StringBuilder methods such as append, insert, replace, or delete.
-5.Display the updated string (modified within the same object).
-6.End the program.
+1.Start the program.  
+2.Create a StringBuilder object with an initial string.  
+3.Display the original string.  
+4.Modify the string using StringBuilder methods such as append, insert, replace, or delete.  
+5.Display the updated string (modified within the same object).  
+6.End the program.  
 
 ## PROGRAM:
  ```
