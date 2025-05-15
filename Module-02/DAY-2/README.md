@@ -42,7 +42,7 @@ public class Main{
 
 ## OUTPUT:
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/f1809208ac4eec2dc86a0340921c0373d2accdb9/Module-02/DAY-2/java.png
+![java (1)](https://github.com/user-attachments/assets/6faeb0a9-6167-497e-93bc-3d9afa2120bc)
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
