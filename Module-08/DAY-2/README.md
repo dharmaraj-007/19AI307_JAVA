@@ -27,7 +27,7 @@ System.out.println("Wrote File Successfully");
 ```
 
 ## OUTPUT:
-https://github.com/Pryasaee/19AI307_JAVA/blob/f50a789dc8e24f18d0bebd36e44ecbd0982b9385/Module-08/DAY-2/6.png
+![6](https://github.com/user-attachments/assets/f915645d-f364-4874-871e-581a9628cc13)
 
 
 ## RESULT:
