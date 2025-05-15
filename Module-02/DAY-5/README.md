@@ -4,14 +4,14 @@
 Develop a Java Program to sort the elements of an array in ascending order.
 
 ## ALGORITHM :
-1.Start the program.
-2.Declare and initialize an array with unsorted elements.
-3.Use a sorting algorithm (like Bubble Sort) to arrange the elements in ascending order:
-4.Compare each element with the next one.
-5.Swap them if they are in the wrong order.
-6.Repeat the process until the array is sorted.
-7.Display the sorted array.
-8.End the program.
+1.Start the program.  
+2.Declare and initialize an array with unsorted elements.  
+3.Use a sorting algorithm (like Bubble Sort) to arrange the elements in ascending order:  
+4.Compare each element with the next one.  
+5.Swap them if they are in the wrong order.  
+6.Repeat the process until the array is sorted.  
+7.Display the sorted array.  
+8.End the program.  
 
 ## PROGRAM:
  ```
