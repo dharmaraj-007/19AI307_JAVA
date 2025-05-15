@@ -3,14 +3,11 @@
 To create a LinkedList, read three elements from the user, display the elements, and apply the clone() method to create a copy of the LinkedList.
 
 ## ALGORITHM :
-1.Create a LinkedList to store the elements.
-2.Read three elements from the user and add them to the list.
-3.Display the elements of the original LinkedList.
-4.Clone the original LinkedList using the clone() method.
-5.Display the cloned list.
-
-
-
+1.Create a LinkedList to store the elements.  
+2.Read three elements from the user and add them to the list.  
+3.Display the elements of the original LinkedList.  
+4.Clone the original LinkedList using the clone() method.  
+5.Display the cloned list.  
 
 
 ## PROGRAM:
