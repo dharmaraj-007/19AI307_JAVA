@@ -2,10 +2,10 @@
 ## AIM:
 To create a Java program that reads the student's name and ID at runtime using getter and setter methods, and displays them.
 ## ALGORITHM :
-1.Create a Student class with private fields name and id.
-2.Provide setter and getter methods for both name and id.
-3.In the Main class, use Scanner to read the name and ID from the user at runtime.
-4.Set the values using the setter methods and display them using the getter methods.
+1.Create a Student class with private fields name and id.  
+2.Provide setter and getter methods for both name and id.  
+3.In the Main class, use Scanner to read the name and ID from the user at runtime.  
+4.Set the values using the setter methods and display them using the getter methods.  
 
 
 ## PROGRAM:
