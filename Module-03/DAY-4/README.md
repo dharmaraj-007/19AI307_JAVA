@@ -4,13 +4,13 @@
 To write a Java program that reads a string input and prints the tokens separated by a comma (,) using the nextToken() method of the StringTokenizer class.
 
 ## ALGORITHM :
-1.Start the program.
-2.Import java.util.StringTokenizer.
-3.Read an input string containing words or phrases separated by commas.
-4.Create a StringTokenizer object with the input string and comma (,) as the delimiter.
-5.Loop through the tokens using the hasMoreTokens() and nextToken() methods.
-6.Print each token.
-7.End the program.
+1.Start the program.  
+2.Import java.util.StringTokenizer. 
+3.Read an input string containing words or phrases separated by commas.  
+4.Create a StringTokenizer object with the input string and comma (,) as the delimiter.  
+5.Loop through the tokens using the hasMoreTokens() and nextToken() methods.  
+6.Print each token.  
+7.End the program.  
 
 
 ## PROGRAM:
