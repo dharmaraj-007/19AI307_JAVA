@@ -4,11 +4,11 @@
 
 
 ## ALGORITHM :
-1.Import necessary I/O classes (FileInputStream, FilterInputStream, BufferedInputStream).
-2.Create a FileInputStream for the file "sample.txt".
-3.Wrap it with a BufferedInputStream (a subclass of FilterInputStream).
-4.Read the contents byte by byte and cast them to characters.
-5.Display the characters until the end of the file is reached.
+1.Import necessary I/O classes (FileInputStream, FilterInputStream, BufferedInputStream).  
+2.Create a FileInputStream for the file "sample.txt".  
+3.Wrap it with a BufferedInputStream (a subclass of FilterInputStream).  
+4.Read the contents byte by byte and cast them to characters.  
+5.Display the characters until the end of the file is reached.  
 6.Close the stream.
 
 ## PROGRAM:
