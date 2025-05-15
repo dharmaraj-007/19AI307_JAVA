@@ -59,8 +59,8 @@ public class Ans{
 ```
 
 ## OUTPUT:
+![2](https://github.com/user-attachments/assets/a8d22a5f-82f6-4c38-b049-e9c6d61bbc20)
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/94e1b664d0113b2fa11da3b3fb97c2b746e2ad68/Module-04/DAY-2/2.png
 
 ## RESULT:
 The Animal class successfully demonstrates the invocation of eat() and sleep() methods, and the Bird class extends Animal to add a fly() method, with all methods being invoked successfully using instances of each class.
