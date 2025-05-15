@@ -3,10 +3,10 @@
 ## AIM:
 To create a Person class with getter and setter methods for the age attribute, and use it in the Main class to print the age of a person.
 ## ALGORITHM :
-1.Define the Person class with a private attribute age.
-2.Provide setter and getter methods for the age attribute.
-3.In the Main class, create an object of the Person class.
-4.Use the setter method to set the age and the getter method to retrieve and print the age.
+1.Define the Person class with a private attribute age.  
+2.Provide setter and getter methods for the age attribute.  
+3.In the Main class, create an object of the Person class.  
+4.Use the setter method to set the age and the getter method to retrieve and print the age.  
 
 
 ## PROGRAM:
