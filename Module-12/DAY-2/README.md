@@ -2,11 +2,11 @@
 ## AIM :
 To write a Java program that sorts a list of custom elements using the Comparator interface while utilizing LinkedList from Java Collections Framework.
 ## ALGORITHM :
-1.Define a custom class (e.g., Person) with fields like name and age.
-2.Implement a custom Comparator to sort Person objects by age (or any chosen field).
-3.Create a LinkedList of Person objects.
-4.Use Collections.sort() with the custom comparator to sort the list.
-5.Print the sorted list.
+1.Define a custom class (e.g., Person) with fields like name and age.  
+2.Implement a custom Comparator to sort Person objects by age (or any chosen field).  
+3.Create a LinkedList of Person objects.  
+4.Use Collections.sort() with the custom comparator to sort the list.  
+5.Print the sorted list.  
 
 
 ## PROGRAM:
