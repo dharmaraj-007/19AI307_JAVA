@@ -33,8 +33,8 @@ System.out.println("Success...");
 ```
 
 ## OUTPUT:
+![7](https://github.com/user-attachments/assets/7fb78f3b-9e2e-45fe-b22d-369dd120daed)
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/6a94678a692f0cfa29f25c544bbda785a0d5eeec/Module-09/DAY-2/7.png
 
 ## RESULT:
 Thus, java program to write data using ByteArrayOutputStream was executed and verified successfully.
