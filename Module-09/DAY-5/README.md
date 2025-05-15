@@ -4,10 +4,10 @@
 To print the string "String Writer" to the output screen using StringWriter in Java.
 
 ## ALGORITHM :
-1.Create an instance of StringWriter.
-2.Use the write() method to write the string "String Writer" into the StringWriter object.
-3.Retrieve the written content using the toString() method.
-4.Print the retrieved content to the screen.
+1.Create an instance of StringWriter.  
+2.Use the write() method to write the string "String Writer" into the StringWriter object.  
+3.Retrieve the written content using the toString() method.  
+4.Print the retrieved content to the screen.  
 
 ## PROGRAM:
  ```
