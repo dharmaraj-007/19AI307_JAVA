@@ -2,10 +2,10 @@
  ## AIM :
 To write a Java program that reads, prints all elements, and fetches the element at index 3 using the Vector class and its elementAt() method.
 ## ALGORITHM :
-1.Create a Vector and add elements to it.
-2.Print all elements using a loop.
-3.Use elementAt(3) to fetch the element at index 3 (4th element).
-4.Print the fetched element.
+1.Create a Vector and add elements to it.  
+2.Print all elements using a loop.  
+3.Use elementAt(3) to fetch the element at index 3 (4th element).  
+4.Print the fetched element.  
 
 
 
