@@ -3,11 +3,11 @@
 To demonstrate inheritance by creating a parent class and a child class, where the child class inherits from the parent class, and calling the methods using objects of both classes.
 
 ## ALGORITHM :
-1.Define a parent class with a method that prints "This is parent class".
-2.Define a subclass that inherits from the parent class and has its own method that prints "This is child class".
-3.Create an object of the parent class and call its method.
-4.Create an object of the child class and call its method.
-5.Create an object of the child class and call the method of the parent class using this object.
+1.Define a parent class with a method that prints "This is parent class".   
+2.Define a subclass that inherits from the parent class and has its own method that prints "This is child class".  
+3.Create an object of the parent class and call its method.  
+4.Create an object of the child class and call its method.  
+5.Create an object of the child class and call the method of the parent class using this object.  
 
 ## PROGRAM:
  ```
