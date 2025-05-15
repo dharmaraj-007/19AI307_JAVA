@@ -3,14 +3,14 @@
 ## AIM:
 To demonstrate the default access modifier in Java using two classes (BaseClass and Main) by performing addition of two variables a and b, and printing the result c
 ## ALGORITHM :
-1.Start the program.
-2.Create a class named BaseClass.
-3.Declare two default-access variables a = 3 and b = 5.
-4.Create a default-access method display() that adds a and b, stores the result in variable c, and prints c.
-5.Create a second class named Main.
-6.In the main() method, create an object of BaseClass.
-7.Call the display() method using the object.
-8.End the program.
+1.Start the program.  
+2.Create a class named BaseClass.  
+3.Declare two default-access variables a = 3 and b = 5.  
+4.Create a default-access method display() that adds a and b, stores the result in variable c, and prints c.  
+5.Create a second class named Main. 
+6.In the main() method, create an object of BaseClass.  
+7.Call the display() method using the object.  
+8.End the program.  
 
 
 ## PROGRAM:
