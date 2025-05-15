@@ -3,12 +3,12 @@
 To Create a java program to retrieve the key and value from hashtable for all input value.
 
 ## ALGORITHM :
-1.Create a HashMap to store key-value pairs.
-2.Add key-value pairs to the HashMap.
-3.Use an iterator to iterate over the HashMap and display the key-value pairs using a while loop.
-4.Display the size of the HashMap using the size() method.
-5.Use the clear() method to remove all elements from the HashMap.
-6.Verify that the HashMap is cleared by checking its size again.
+1.Create a HashMap to store key-value pairs.  
+2.Add key-value pairs to the HashMap.  
+3.Use an iterator to iterate over the HashMap and display the key-value pairs using a while loop.  
+4.Display the size of the HashMap using the size() method.  
+5.Use the clear() method to remove all elements from the HashMap.  
+6.Verify that the HashMap is cleared by checking its size again.  
 
 ## PROGRAM:
  ```
