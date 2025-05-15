@@ -3,12 +3,12 @@
 ## AIM:
 To write a Java program that adds two numbers using a Thread created with the Runnable interface, taking the two integers as user input.
 ## ALGORITHM :
-1.Import Scanner for user input.
-2.Create a class AdditionTask that implements the Runnable interface.
-3.In the AdditionTask constructor, accept two integers.
-4.In the run() method, add the two numbers and display the result.
-5.In the main() method, get user input for two integers.
-6.Create a Thread object by passing an instance of AdditionTask and start the thread.
+1.Import Scanner for user input.  
+2.Create a class AdditionTask that implements the Runnable interface.  
+3.In the AdditionTask constructor, accept two integers.  
+4.In the run() method, add the two numbers and display the result.  
+5.In the main() method, get user input for two integers.  
+6.Create a Thread object by passing an instance of AdditionTask and start the thread.  
 
 
 ## PROGRAM:
