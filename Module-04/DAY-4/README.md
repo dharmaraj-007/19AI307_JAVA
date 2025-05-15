@@ -4,11 +4,11 @@
 To create a Class with Name, Id, and a final Year variable, and to print the member variables in the output using a Main class.
   
 ## ALGORITHM :
-1.Define a final class Class with three member variables: Name, Id, and Year.
-2.Make Year a constant with the value "3rd Year".
-3.Create a constructor to initialize Name and Id.
-4.Implement a print() method to display the Name, Id, and Year.
-5.Create a Main class to instantiate and access the print() method of Class.
+1.Define a final class Class with three member variables: Name, Id, and Year.  
+2.Make Year a constant with the value "3rd Year".  
+3.Create a constructor to initialize Name and Id.  
+4.Implement a print() method to display the Name, Id, and Year.  
+5.Create a Main class to instantiate and access the print() method of Class.  
 
 
 
