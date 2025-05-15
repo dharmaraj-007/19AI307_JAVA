@@ -3,13 +3,12 @@
 To read a double value from a file "OutputFile.txt" using DataInputStream and the predefined function readDouble().
 
 ## ALGORITHM :
-```
-1.Create a FileInputStream object for "OutputFile.txt".
-2.Wrap it in a DataInputStream.
-3.Use readDouble() to read the double value from the file.
-4.Print the value.
-5.Close the stream.
-```
+1.Create a FileInputStream object for "OutputFile.txt".  
+2.Wrap it in a DataInputStream.  
+3.Use readDouble() to read the double value from the file.  
+4.Print the value.  
+5.Close the stream.  
+
 
 ## PROGRAM:
  ```
