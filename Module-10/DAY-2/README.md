@@ -41,8 +41,8 @@ public class Main{
 ```
 
 ## OUTPUT:
+![8](https://github.com/user-attachments/assets/84b4609e-820c-4602-b464-7d05c1684547)
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/de8ef7bdc331c34d588c30da6ce129ada26471f0/Module-10/DAY-2/8.png
 
 ## RESULT:
 The program successfully creates a LinkedList, reads three elements, displays the original list, clones the list using the clone() method, and displays the cloned list.
