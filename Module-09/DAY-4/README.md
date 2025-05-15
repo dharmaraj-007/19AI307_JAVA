@@ -3,10 +3,10 @@
 ## AIM:
  To store student details (name, department) in a file "student.txt" using serialization by creating an object of the Studentinfo class and serializing it.
 ## ALGORITHM :
-1.Define the Studentinfo class that implements the Serializable interface.
-2.Create an instance of Studentinfo using the user-provided name and department.
-3.Serialize the object and write it to "student.txt" using ObjectOutputStream.
-4.Close the stream after serialization.
+1.Define the Studentinfo class that implements the Serializable interface.  
+2.Create an instance of Studentinfo using the user-provided name and department.  
+3.Serialize the object and write it to "student.txt" using ObjectOutputStream.  
+4.Close the stream after serialization.  
 
 ## PROGRAM:
  ```
