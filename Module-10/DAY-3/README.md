@@ -3,11 +3,10 @@
 To store a group of employee names in a HashSet, and retrieve the elements one by one using an Iterator.
 
 ## ALGORITHM :
-1.Create a HashSet to store employee names.
-2.Add employee names to the HashSet.
-3.Create an Iterator to traverse the HashSet.
-4.Use the Iterator to retrieve and display each element.
-
+1.Create a HashSet to store employee names.  
+2.Add employee names to the HashSet.  
+3.Create an Iterator to traverse the HashSet.  
+4.Use the Iterator to retrieve and display each element.  
 
 
 ## PROGRAM:
