@@ -57,7 +57,8 @@ public class CyclinderVolume{
 
 ## OUTPUT:
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/3cd6cd0f4bd287645a9a3ade912f7f07f1530928/Module-05/DAY-2/s.png
+![s](https://github.com/user-attachments/assets/a21a3e7f-4dc7-4341-b119-6c9da26c6409)
+
 
 ## RESULT:
 Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
