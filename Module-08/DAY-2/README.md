@@ -2,11 +2,11 @@
 ## AIM:
 To implement a Java program that writes a string to a file named "testout.txt" using the Writer class.
 ## ALGORITHM :
-1.Import java.io.* package.
-2.Define the string str = "Welcome to Java File Concept -Reader".
-3.Create a Writer object (e.g., FileWriter) pointing to "testout.txt".
-4.Use write() method to write the string to the file.
-5.Close the writer using close().
+1.Import java.io.* package.  
+2.Define the string str = "Welcome to Java File Concept -Reader".  
+3.Create a Writer object (e.g., FileWriter) pointing to "testout.txt".  
+4.Use write() method to write the string to the file.  
+5.Close the writer using close().  
 
 ## PROGRAM:
  ```
