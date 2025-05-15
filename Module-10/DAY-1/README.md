@@ -2,11 +2,11 @@
 ## AIM:
  To create an ArrayList of car names, add a new car at the 3rd position, and then display the list in alphabetical order.
 ## ALGORITHM:
-1.Create an ArrayList of String to store car names.
-2.Add four car names to the list.
-3.Insert a new car name at the 3rd position (index 2).
-4.Sort the list in alphabetical order.
-5.Display the sorted list.
+1.Create an ArrayList of String to store car names.  
+2.Add four car names to the list.  
+3.Insert a new car name at the 3rd position (index 2).  
+4.Sort the list in alphabetical order.  
+5.Display the sorted list.  
 
 ## PROGRAM:
  ```
