@@ -44,7 +44,7 @@ public class Main{
 
 ## OUTPUT:
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/6d2632382624c0841acae3fc0439ccfcf3f0b050/Module-06/DAY-2/4.png
+![4](https://github.com/user-attachments/assets/c35027d2-7684-4a44-8a9f-a1c660eb535d)
 
 
 ## RESULT:
