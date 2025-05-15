@@ -3,11 +3,11 @@
    To demonstrate the "has-a" relationship in Java by creating a program that adds two numbers using classes and objects.
  
 ## ALGORITHM :
-1.Create a class Numbers with two attributes num1 and num2.
-2.Provide a method in the Numbers class to set the values of num1 and num2.
-3.Create a Calculator class that has a Numbers object (demonstrating the "has-a" relationship).
-4.Use the Calculator class to perform the addition by accessing the Numbers object's values.
-5.In the Main class, create objects and call the methods to display the result.
+1.Create a class Numbers with two attributes num1 and num2.  
+2.Provide a method in the Numbers class to set the values of num1 and num2.  
+3.Create a Calculator class that has a Numbers object (demonstrating the "has-a" relationship).  
+4.Use the Calculator class to perform the addition by accessing the Numbers object's values.  
+5.In the Main class, create objects and call the methods to display the result.  
 
 ## PROGRAM:
  ```
