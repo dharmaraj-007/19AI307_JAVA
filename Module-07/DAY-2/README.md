@@ -49,7 +49,8 @@ public class HelloWorld {
 
 ## OUTPUT:
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/d9de50ae8ab08c266084c5cd0e9f5eae8de3ea32/Module-07/DAY-2/5.png
+![5](https://github.com/user-attachments/assets/5dafc109-edfd-480d-b0dd-f1ef64333e87)
+
 
 ## RESULT:
 The program shows that the catch block handles the exception and the finally block always executes.
