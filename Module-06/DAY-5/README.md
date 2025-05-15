@@ -4,11 +4,11 @@
 To implement a Regular Inner Class in Java where the Employee class has private members and the Salary class (inner class) calculates and displays the employee's salary along with their details.
 
 ## ALGORITHM :
-1.Create the Employee class with private members Emp_Id and Emp_Name.
-2.Create an inner class Salary within the Employee class.
-3.Define private float members Basic and Allowance in the Salary class.
-4.Implement a public method display() in the Salary class to print the employee details and calculated salary.
-5.In the main() method, create objects of both Employee and Salary, and invoke the display method to show the information.
+1.Create the Employee class with private members Emp_Id and Emp_Name.  
+2.Create an inner class Salary within the Employee class.  
+3.Define private float members Basic and Allowance in the Salary class.  
+4.Implement a public method display() in the Salary class to print the employee details and calculated salary.  
+5.In the main() method, create objects of both Employee and Salary, and invoke the display method to show the information.  
 
 
 ## PROGRAM:
