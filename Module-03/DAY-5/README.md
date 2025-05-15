@@ -4,12 +4,12 @@
 To write a Java program that reads a sentence, splits it into individual words, and prints each word using a StringBuilder to demonstrate string manipulation.
 
 ## ALGORITHM :
-1.Read Input: Take a sentence as input from the user.
-2.Split the Sentence: Use the split() method of the String class to separate the sentence into words.
-3.Create a StringBuilder: Use StringBuilder to store and manipulate each word.
-4.Loop through the Words: Iterate through each word and append it to the StringBuilder.
-5.Print Each Word: Print each word stored in the StringBuilder.
-6.End the Program
+1.Read Input: Take a sentence as input from the user.  
+2.Split the Sentence: Use the split() method of the String class to separate the sentence into words.  
+3.Create a StringBuilder: Use StringBuilder to store and manipulate each word.  
+4.Loop through the Words: Iterate through each word and append it to the StringBuilder.  
+5.Print Each Word: Print each word stored in the StringBuilder.  
+6.End the Program  
 
 
 ## PROGRAM:
