@@ -4,18 +4,18 @@
 To write a Java program to calculate and print the area of a square using an instance method named calculateArea() inside a class named Area. The program should use a local variable for calculation, and the method should have a void return type.
 
 ## ALGORITHM :
-1.	Start the program.
-2.Define a class named Area.
-3.Inside the class, define an instance method named calculateArea().
-4.In this method:
-Use a Scanner to take user input for the side of the square.
-5.Declare a local variable to store the side length.
-6.Calculate the area using the formula area = side × side.
-7.Print the area.
-8.In the main method:
-9.Create an object of class Area.
-10.Call the calculateArea() method using the object.
-11.End the program.
+1.	Start the program.  
+2.Define a class named Area.   
+3.Inside the class, define an instance method named calculateArea().  
+4.In this method:  
+Use a Scanner to take user input for the side of the square.  
+5.Declare a local variable to store the side length.   
+6.Calculate the area using the formula area = side × side.   
+7.Print the area.   
+8.In the main method:  
+9.Create an object of class Area.   
+10.Call the calculateArea() method using the object.   
+11.End the program.  
 
 ## PROGRAM:
  ```
