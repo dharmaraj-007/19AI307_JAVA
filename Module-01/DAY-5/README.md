@@ -4,13 +4,13 @@
 To write a Java program that divides the number 3210 by 3, takes the modulus of the quotient with 6, multiplies the result by 10, and displays the final result.
 
 ## ALGORITHM :
-1.Start the program.
-2.Declare and initialize an integer variable num = 3210.
-3.Divide num by 3 and store the result in a variable called quotient.
-4.Find the modulus of quotient with 6 and store it in modResult.
-5.Multiply modResult by 10 and store it in finalResult.
-6.Print finalResult.
-7.End the program.
+1.Start the program.  
+2.Declare and initialize an integer variable num = 3210.  
+3.Divide num by 3 and store the result in a variable called quotient.  
+4.Find the modulus of quotient with 6 and store it in modResult.  
+5.Multiply modResult by 10 and store it in finalResult.  
+6.Print finalResult.  
+7.End the program.  
 
 
 ## PROGRAM:
