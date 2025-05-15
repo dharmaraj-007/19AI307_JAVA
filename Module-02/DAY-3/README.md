@@ -4,10 +4,10 @@
 To write a Java program that declares an array, initializes it with values 10, 20, 30, 40, 50, and then displays the elements of the array.
 
 ## ALGORITHM :
-1.Start the program.
-2.Declare an integer array and initialize it with values 10, 20, 30, 40, 50.
-3.Use a loop (for example, a for loop) to traverse and display each element of the array.
-4.End the program.
+1.Start the program.  
+2.Declare an integer array and initialize it with values 10, 20, 30, 40, 50.  
+3.Use a loop (for example, a for loop) to traverse and display each element of the array.  
+4.End the program.  
 
 ## PROGRAM:
 ```
