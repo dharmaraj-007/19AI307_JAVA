@@ -2,9 +2,9 @@
 ## AIM:
 To Write a Java program to get all keys from the given a Tree Map
 ## ALGORITHM :
-1.Create a TreeMap and populate it with key-value pairs.
-2.Use the keySet() method to retrieve all keys.
-3.Iterate over the key set and print each key
+1.Create a TreeMap and populate it with key-value pairs.  
+2.Use the keySet() method to retrieve all keys.  
+3.Iterate over the key set and print each key  
 
 
 ## PROGRAM:
