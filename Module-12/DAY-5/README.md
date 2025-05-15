@@ -3,12 +3,12 @@
 ## AIM:
 To write a Java program that displays and removes the last element from a Deque using getLast() method with string elements.
 ## ALGORITHM :
-1.Import necessary Java utilities.
-2.Create a Deque object using LinkedList.
-3.Add string elements to the deque.
-4.Retrieve the last element using getLast().
-5.Remove that element using removeLast().
-6.Display the removed element and the remaining deque.
+1.Import necessary Java utilities.  
+2.Create a Deque object using LinkedList.  
+3.Add string elements to the deque.  
+4.Retrieve the last element using getLast().  
+5.Remove that element using removeLast().  
+6.Display the removed element and the remaining deque.  
 
 ## PROGRAM:
  ```
