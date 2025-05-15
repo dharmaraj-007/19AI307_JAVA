@@ -2,11 +2,11 @@
 ## AIM:
 To demonstrate the concept of encapsulation in Java by creating a program that adds two numbers using getter and setter methods.
 ## ALGORITHM :
-1.Create a class Addition with two private variables to store the numbers.
-2.Provide public setter methods to set the values of the numbers.
-3.Provide a public getter method to retrieve the numbers.
-4.Create a method add() to perform the addition of the two numbers.
-5.In the main class, create an object of Addition and use the setter methods to set values, then call the add() method to perform the addition.
+1.Create a class Addition with two private variables to store the numbers.  
+2.Provide public setter methods to set the values of the numbers.  
+3.Provide a public getter method to retrieve the numbers.  
+4.Create a method add() to perform the addition of the two numbers.  
+5.In the main class, create an object of Addition and use the setter methods to set values, then call the add() method to perform the addition.  
 
 ## PROGRAM:
  ```
