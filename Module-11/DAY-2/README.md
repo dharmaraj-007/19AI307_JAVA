@@ -46,7 +46,7 @@ public class Main{
 
 ## OUTPUT:
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/422d6b67396cdbbcaa0f3ed8dbd6940d310539b8/Module-11/DAY-2/9.png
+![9](https://github.com/user-attachments/assets/99c0e502-8c11-4138-9e2f-5ad7d48d4472)
 
 ## RESULT:
 Thus the java program to retrieve the key and value from hashtable for all input value was executed successfully.
