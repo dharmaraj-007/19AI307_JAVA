@@ -3,12 +3,9 @@
 To retrieve a value from a LinkedHashMap using a specific key (in this case, the key is 100).
 
 ## ALGORITHM :
-1.Create a LinkedHashMap and add key-value pairs to it.
-2.Use the get() method to retrieve the value associated with the key 100.
-3.Display the retrieved value.
-
-
-
+1.Create a LinkedHashMap and add key-value pairs to it.   
+2.Use the get() method to retrieve the value associated with the key 100.  
+3.Display the retrieved value.  
 
 ## PROGRAM:
  ```
