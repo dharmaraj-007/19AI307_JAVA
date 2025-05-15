@@ -3,10 +3,10 @@
 ## AIM:
  To iterate through all elements in a TreeSet using a for loop.
 ## ALGORITHM :
-1.Read the size n of the TreeSet.
-2.Read n numbers and add them to the TreeSet (automatically sorted).
-3.Use a for loop to iterate through the elements in the TreeSet.
-4.Print each element during the iteration.
+1.Read the size n of the TreeSet.  
+2.Read n numbers and add them to the TreeSet (automatically sorted).  
+3.Use a for loop to iterate through the elements in the TreeSet.  
+4.Print each element during the iteration.  
 ## PROGRAM:
  ```
 /*
