@@ -3,11 +3,11 @@
 ## AIM:
 To demonstrate the use of LinkedList in Java by reading the size of the list, adding elements, and displaying them while applying collection concepts.
 ## ALGORITHM :
-1.Create a LinkedList to store the elements.
-2.Read the size of the list from the user.
-3.Read the elements from the user and add them to the LinkedList.
-4.Display the elements of the LinkedList using a loop.
-5.Apply collection concepts like iterating over the list.
+1.Create a LinkedList to store the elements.  
+2.Read the size of the list from the user.  
+3.Read the elements from the user and add them to the LinkedList.  
+4.Display the elements of the LinkedList using a loop.  
+5.Apply collection concepts like iterating over the list.  
 
 ## PROGRAM:
  ```
