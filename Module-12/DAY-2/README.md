@@ -43,7 +43,8 @@ public class Main{
 
 ## OUTPUT:
 
-https://github.com/Pryasaee/19AI307_JAVA/blob/fda8d9d4452ba9dfa9da5881486a02936b686c2f/Module-12/DAY-2/10.png
+![10](https://github.com/user-attachments/assets/5c384e71-05dd-4680-bbc1-c20e1d42b566)
+
 
 ## RESULT:
 The program sorts the LinkedList of Person objects in ascending order of age using a custom Comparator and displays the sorted list.
