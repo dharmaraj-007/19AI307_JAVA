@@ -5,11 +5,11 @@
 
 
 ## ALGORITHM :
-1.Create a Vehicle class with a constructor that displays "Vehicle class has 3 Child Class".
-2.Create a Car class that extends Vehicle and calls the parent constructor, displaying "Car is the one of the Child of Vehicle Class".
-3.Create a Truck class that extends Vehicle and calls the parent constructor, displaying "Truck is the one of the Child of Vehicle Class".
-4.Create a Bus class that extends Vehicle and calls the parent constructor, displaying "Bus is the one of the Child of Vehicle Class".
-5.In the Main class, create objects of each child class (Car, Truck, and Bus) to invoke their constructors and display the messages.
+1.Create a Vehicle class with a constructor that displays "Vehicle class has 3 Child Class".  
+2.Create a Car class that extends Vehicle and calls the parent constructor, displaying "Car is the one of the Child of Vehicle Class".  
+3.Create a Truck class that extends Vehicle and calls the parent constructor, displaying "Truck is the one of the Child of Vehicle Class".  
+4.Create a Bus class that extends Vehicle and calls the parent constructor, displaying "Bus is the one of the Child of Vehicle Class".  
+5.In the Main class, create objects of each child class (Car, Truck, and Bus) to invoke their constructors and display the messages.  
 
 
 ## PROGRAM:
