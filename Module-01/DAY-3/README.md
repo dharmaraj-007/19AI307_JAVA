@@ -3,14 +3,14 @@
 ## AIM:
 To write a Java program that takes an integer input from the user and determines whether the number is positive or negative.
 ## ALGORITHM :
-1.Start
-2.Create a Scanner object to take user input.
-3.Prompt the user to enter an integer.
-4.Read the integer input and store it in a variable num.
-5.Check if num is less than 0:
-     If true, print "num is Negative".
-     Else, print "num is Positive".
-6.End
+1.Start  
+2.Create a Scanner object to take user input.  
+3.Prompt the user to enter an integer.   
+4.Read the integer input and store it in a variable num.  
+5.Check if num is less than 0:  
+     If true, print "num is Negative".  
+     Else, print "num is Positive".  
+6.End  
 
 ## PROGRAM:
  ```
