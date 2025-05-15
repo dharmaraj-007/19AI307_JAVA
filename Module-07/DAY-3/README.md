@@ -2,18 +2,13 @@
 ## AIM:
  To Develop a Java program to create Thread using Thread class.
 
-
 ## ALGORITHM :
-1.Import Scanner class for user input.
-2.Get the current thread using Thread.currentThread().
-3.Read the thread name from the user using Scanner.
-4.Set the thread's name using setName().
-5.Set the thread's priority to 2 using setPriority(2).
-6.Display the updated thread name and priority.
-
-
-
-
+1.Import Scanner class for user input.  
+2.Get the current thread using Thread.currentThread().  
+3.Read the thread name from the user using Scanner.  
+4.Set the thread's name using setName().  
+5.Set the thread's priority to 2 using setPriority(2).  
+6.Display the updated thread name and priority.  
 
 ## PROGRAM:
  ```
