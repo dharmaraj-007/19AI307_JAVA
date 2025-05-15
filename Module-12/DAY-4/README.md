@@ -3,10 +3,10 @@
 To write a Java program that displays elements from a PriorityQueue, inserts a new element using the offer() method, and then displays the updated queue.
 
 ## ALGORITHM :
-1.Create a PriorityQueue and add initial elements using add().
-2.Display the elements using a loop or iterator.
-3.Insert a new element using the offer() method.
-4.Display the updated elements of the PriorityQueue
+1.Create a PriorityQueue and add initial elements using add().  
+2.Display the elements using a loop or iterator.  
+3.Insert a new element using the offer() method.  
+4.Display the updated elements of the PriorityQueue  
 
 ## PROGRAM:
  ```
