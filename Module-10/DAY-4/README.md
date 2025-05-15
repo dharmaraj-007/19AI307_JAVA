@@ -4,9 +4,9 @@
 To demonstrate the use of HashSet in Java by adding elements to the HashSet and then displaying the elements.
 
 ## ALGORITHM :
-1.Create a HashSet to store unique elements.
-2.Add various elements (such as strings or numbers) to the HashSet.
-3.Display the elements of the HashSet. Since HashSet does not maintain any specific order, the output may vary in the order of insertion.
+1.Create a HashSet to store unique elements.  
+2.Add various elements (such as strings or numbers) to the HashSet.  
+3.Display the elements of the HashSet. Since HashSet does not maintain any specific order, the output may vary in the order of insertion.  
 
 ## PROGRAM:
  ```
