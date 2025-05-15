@@ -4,14 +4,14 @@
 To write a Java program that reads content from a user-input string using the Reader class and displays it using a predefined method.
 
 ## ALGORITHM :
-1.Import java.io.* and java.util.Scanner.
-2.Read a string input from the user using Scanner.
-3.Create a CharArrayReader or StringReader to read from the string.
-4.Initialize a char[] array = new char[12];.
-5.Use the read(char[] cbuf) method to read characters from the string into the array.
-6.Display the contents of the character array.
-7.Close the reader.
-
+1.Import java.io.* and java.util.Scanner.  
+2.Read a string input from the user using Scanner.  
+3.Create a CharArrayReader or StringReader to read from the string.  
+4.Initialize a char[] array = new char[12];.  
+5.Use the read(char[] cbuf) method to read characters from the string into the array.  
+6.Display the contents of the character array.  
+7.Close the reader.  
+ 
 ## PROGRAM:
  ```
 /*
