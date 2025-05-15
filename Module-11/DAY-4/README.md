@@ -3,10 +3,10 @@
 ## AIM:
 To create a Hashtable, add objects (key-value pairs) to it, and check whether the Hashtable is empty or not using the isEmpty() method.
 ## ALGORITHM :
-1.Create a Hashtable object.
-2.Add key-value pairs (objects) to the Hashtable.
-3.Use the isEmpty() method to check if the Hashtable is empty.
-4.Display the result based on whether the Hashtable is empty or not.
+1.Create a Hashtable object.  
+2.Add key-value pairs (objects) to the Hashtable.  
+3.Use the isEmpty() method to check if the Hashtable is empty.  
+4.Display the result based on whether the Hashtable is empty or not.  
 
 
 
