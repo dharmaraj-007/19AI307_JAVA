@@ -1,58 +1,49 @@
 # Ex.No:2(B) ACCESS MODIFIERS
 
 ## AIM:
-Demonstrate the java program using public access modifier and find the quotient and remainder.
-
+To demonstrate the default access modifier in Java using two classes (BaseClass and Main) by performing addition of two variables a and b, and printing the result c
 ## ALGORITHM :
-```
-STEP 1:Define a public class Demo.
+1.Start the program.  
+2.Create a class named BaseClass.  
+3.Declare two default-access variables a = 3 and b = 5.  
+4.Create a default-access method display() that adds a and b, stores the result in variable c, and prints c.  
+5.Create a second class named Main. 
+6.In the main() method, create an object of BaseClass.  
+7.Call the display() method using the object.  
+8.End the program.  
 
-STEP 2:nside the class, create a public method calculate(int a, int b) to compute quotient and remainder:
 
-STEP 3:Calculate quotient and remainder 
-
-STEP 4:Print the quotient and remainder.
-
-STEP 5:Define the public static main method as the program entry point.
-
-STEP 6:In main, declare and initialize two integers a = 15 and b = 2.
-
-STEP 7:Create an object of Demo and call the public calculate(a, b) method to display results.
-
-```
 ## PROGRAM:
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: Dharmaraj S
-RegisterNumber:  212222240025
-*/
+Developed by: DHARMARAJ S
+RegisterNumber: 2122222400025
 ```
 
 ## Sourcecode.java:
 ```
-public class Demo{
-    public void calculate(int a,int b)
+class BaseClass
+{
+    void display()
     {
-        int quo=a/b;
-        int rem=a%b;
-        System.out.println("Quotient is: "+quo);
-        System.out.println("Remainder is: "+rem);
+        int a=3,b=5;
+        int c=a+b;
+        System.out.println(c);
     }
-    public static void main(String[] args)
-    {
-        int a=15;
-        int b=2;
-        Demo div=new Demo();
-        div.calculate(a,b);
+}
+public class Main{
+    public static void main(String[] args){
+        BaseClass obj=new BaseClass();
+        obj.display();
     }
 }
 ```
+
 ## OUTPUT:
 
-
+![java (1)](https://github.com/user-attachments/assets/6faeb0a9-6167-497e-93bc-3d9afa2120bc)
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
-
 
