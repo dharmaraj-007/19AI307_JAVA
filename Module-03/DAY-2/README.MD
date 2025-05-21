@@ -41,9 +41,9 @@ public class Demo{
 ```
 
 ## OUTPUT:
-```
+
 ![1](https://github.com/user-attachments/assets/563954e3-ef38-4744-a1a3-31a79a3f3431)
 
-```
+
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
