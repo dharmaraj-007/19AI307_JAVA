@@ -1,21 +1,28 @@
 # Ex.No:2(B) ACCESS MODIFIERS
 
 ## AIM:
-To develop a Java Program to display the addition number using private modifiers only.
+Demonstrate the java program using public access modifier and find the quotient and remainder.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Define a class named `addition`
-3.	Declare two private integer variables, `num1` and `num2`
-4.	Define a private method `add()` that:
-a)	Returns the sum of `num1` and `num2`
-5.	Define a public method `display(int n1, int n2)` that:
-a)	Assigns `n1` to `num1` and `n2` to `num2`
-b)	Calls the `add()` method and prints the result using `System.out.println`
-6.	Define the `main` method as static
-a)	Create an instance of the `addition` class called `ad`
-b)	Call the `display(8, 9)` method on the `ad` object
-7.	End
+Step 1: Start
+
+Step 2: Define a public class named Demo
+Step 3: Inside the Demo class, define a public method named calculate(int a, int b)
+Step 4: Compute the quotient as quo = a / b and remainder as rem = a % b
+
+
+Step 5:Print "Quotient is: " followed by quo and Print "Remainder is: " followed by rem
+
+Step 6: Define the public static void main(String[] args) method
+Step 7: Inside main: Declare and initialize two integer variables:a = 15 b = 2
+Create an object div of class Demo
+Demo div = new Demo();
+Call the public calculate() method using the object:
+div.calculate(a, b);
+
+Step 6: End
+
+
 
 
 
@@ -26,19 +33,30 @@ b)	Call the `display(8, 9)` method on the `ad` object
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Dharmaraj S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+public class Demo{
+    public void calculate(int a,int b)
+    {
+        int quo=a/b;
+        int rem=a%b;
+        System.out.println("Quotient is: "+quo);
+        System.out.println("Remainder is: "+rem);
+    }
+    public static void main(String[] args)
+    {
+        int a=15;
+        int b=2;
+        Demo div=new Demo();
+        div.calculate(a,b);
+    }
+}
+```
 ## OUTPUT:
 
 
