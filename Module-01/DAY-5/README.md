@@ -1,20 +1,25 @@
 # Ex.No:1(E)  STATIC VARIABLE
 
 ## AIM:
-To write a Java program to print student details (name and age), where age is the same for all students. Use a static variable to represent the age and demonstrate its use in accessing a shared value across all class objects
+Write a program to multiply 80 to the number then divide it by 5  and subtract 15 . Display the final result.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Create a class named Student.
-3.	Declare a static variable age in the Student class.
-4.	Declare an instance variable name.
-5.	Create a constructor to initialize the student's name.
-6.	Define a method displayDetails() to print the student's name and age.
-7.	In the main method:
-I.	Assign a value to the static variable age.
-II.	Create multiple Student objects with different names.
-III.	Call the displayDetails() method for each student.
-8.	End the program.
+Step 1: Start
+
+Step 2: Declare an integer variable num and assign it the value 500
+
+Step 3: Multiply num by 80 and store the result
+    product = num * 80
+
+Step 4: Divide product by 5 and store the result
+    quotient = product / 5
+
+Step 5: Subtract 15 from quotient and store the result in result
+    result = quotient - 15
+
+Step 6: Display the value of result
+
+Step 7: End
 
 
 
@@ -22,20 +27,28 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+public class Demo
+{
+    public static void main(String[] args)
+    {
+        int num=500,mul,div,res;
+        mul=num*80;
+        div=mul/5;
+        res=div-15;
+        System.out.println(res);
+    }
+}
+```
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/719a7e7b-bc05-4eda-b7ff-33a5262a032d)
 
 
 
