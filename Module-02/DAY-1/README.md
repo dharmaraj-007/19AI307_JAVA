@@ -14,29 +14,37 @@ To create a java program for calculate cube of a number using static method.
 8.	Print the cube of the number using System.out.println("Cube is: " + result);.
 9.	End the program.
 
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Static method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+import java.util.*;
+public class cubecal{
+    public static int calcube(int n)
+    {
+        return n*n*n;
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int res=calcube(n);
+        System.out.println("Cube is: "+res);
+    }
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/f59dec92-3d66-4786-99b6-0acd8304e5e6)
 
 ## RESULT:
 Thus the java program for calculate cube of a number using static method has been executed successfully.
