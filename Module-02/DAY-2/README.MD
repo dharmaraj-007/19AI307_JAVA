@@ -4,31 +4,22 @@
 Demonstrate the java program using public access modifier and find the quotient and remainder.
 
 ## ALGORITHM :
-Step 1: Start
+```
+STEP 1:Define a public class Demo.
 
-Step 2: Define a public class named Demo
-Step 3: Inside the Demo class, define a public method named calculate(int a, int b)
-Step 4: Compute the quotient as quo = a / b and remainder as rem = a % b
+STEP 2:nside the class, create a public method calculate(int a, int b) to compute quotient and remainder:
 
+STEP 3:Calculate quotient and remainder 
 
-Step 5:Print "Quotient is: " followed by quo and Print "Remainder is: " followed by rem
+STEP 4:Print the quotient and remainder.
 
-Step 6: Define the public static void main(String[] args) method
-Step 7: Inside main: Declare and initialize two integer variables:a = 15 b = 2
-Create an object div of class Demo
-Demo div = new Demo();
-Call the public calculate() method using the object:
-div.calculate(a, b);
+STEP 5:Define the public static main method as the program entry point.
 
-Step 6: End
+STEP 6:In main, declare and initialize two integers a = 15 and b = 2.
 
+STEP 7:Create an object of Demo and call the public calculate(a, b) method to display results.
 
-
-
-
-
-
-
+```
 ## PROGRAM:
  ```
 /*
