@@ -1,42 +1,64 @@
 # Ex.No:2(E)  SMALLEST ELEMENT IN AN ARRAY
 
 ## AIM:
-To write a Java program that reads an array size and elements from the user and then finds and prints the smallest element in the array.
+Develop a Java Program to sort the elements of an array in descending order.
+
 ## ALGORITHM :
-1.	Start the program.
-2.	Read the size of the array from the user.
-3.	Declare an array of the given size.
-4.	Read the array elements from the user.
-5.	Initialize a variable min with the first element of the array.
-6.	Traverse the array using a loop.
-7.	Compare each element with min. If an element is smaller, update min.
-8.	After the loop ends, print the smallest number.
-9.	End the program.
+STEP 1:Start the program.
+
+STEP 2:Read the integer n representing the number of elements.
+
+STEP 3:Create an Integer array arr of size n.
+
+STEP 4:Read n integers from the user and store them in the array arr.
+
+STEP 5:Sort the array arr in descending order using Arrays.sort with Collections.reverseOrder().
+
+STEP 6:Print the message "Result of a Sorted Array :".
+
+STEP 7:Display the elements of the sorted array separated by spaces.
+
+STEP 8:End the program.
 	
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Smallest Element in an Array
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+import java.util.*;
+public class Demo{
+    public static void main(String[] args)
+    {
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      Integer[] arr=new Integer[n];
+      
+        System.out.print("Result of a Sorted Array :");
+      for(int i=0;i<n;i++)
+      {
+          arr[i]=sc.nextInt();
+      }
+     Arrays.sort(arr,Collections.reverseOrder());
+    for(int i=0;i<n;i++)
+    {
+         System.out.print(arr[i]+ " ");
+    }
+    }
+}
+```
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/0c9856ba-87cd-46ff-9756-ab1b3952f16a)
 
 ## RESULT:
-Thus the java program successfully reads the array size and elements from the user and correctly finds and prints the smallest number in the array.
+Thus the java program to sort the elements of an array in descending order was executed successfully
 
 
 
