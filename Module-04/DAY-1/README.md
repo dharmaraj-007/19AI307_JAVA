@@ -1,41 +1,81 @@
 # Ex.No:4(A)  JAVA CONSTRUCTOR
 ## AIM:
-To create a Java program using constructor to print the circumference of rectangle.[l=5,w=6]
-
+Write  a Java program using copy constructor to print the perimeter of triangle.
 ## ALGORITHM :
-1.  1.	Start the Program.
-2.	Define a class `circum`
-3.	Inside the class, define two integer variables `l` and `w` with values 5 and 6, respectively
-4.	Create a constructor `circum()`:
--	a) Calculate the `circumference` as `2 * (l + w)`
--	b) Print the `circumference` twice with different labels ("Area of First Rectangle" and "Area of Second Rectangle")
-5.	In `main`, create an object `sc` of the `circum` class
-6.	End
+STEP 1:Start the program.
 
+STEP 2:Define the Triangle class with fields: length, breadth, and width.
 
+STEP 3:Create two constructors in the Triangle class:
 
+- A parameterized constructor to initialize the triangle sides.
 
+- A copy constructor to create a new Triangle object by copying another.
 
+STEP 4:Define a method perimeter() that returns the sum of the three sides.
+
+STEP 5:In the main method, create the first triangle object using the parameterized constructor.
+
+STEP 6:Create the second triangle object using the copy constructor and pass the first object.
+
+STEP 7:Call the perimeter() method on both objects and print their perimeters.
+
+STEP 8:End the program.
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
+```
 
+class Triangle 
+ { 
+         int length; 
+         int breadth; 
+         int width;
+         Triangle (int l, int b, int w) 
+         {  
+             this.length=l;
+             this.breadth=b;
+             this.width=w;
+         } 
+        
+         Triangle(Triangle obj) 
+         { 
+           this.length=obj.length;
+           this.breadth=obj.breadth;
+           this.width=obj.width;
+           
+         } 
+        
+        int perimeter() 
+        { 
+           return length+breadth+width;
+        } 
+ } 
+        //class to create Rectangle object and calculate area 
+        public class CopyConstructor 
+ { 
+           public static void main(String[] args) 
+           { 
+             Triangle  firstRect = new Triangle (4,5,6); 
+            Triangle secRect=new Triangle(firstRect);
+             System.out.println("Perimeter  of First Triangle : "+firstRect.perimeter());
+             System.out.println("Perimeter of Second Triangle : "+secRect.perimeter());
+           } 
+ } 
+ 
 
-
-
-
-
-
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/d7559f88-4c38-4378-af74-64b9587a7a05)
 
 
 ## RESULT:
-Thus the Java program using constructor to print the circumference of rectangle was executed successfully.
+Thus the Java program using copy constructor to print the perimeter of triangle was executed successfully.
