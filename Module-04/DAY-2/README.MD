@@ -1,52 +1,52 @@
-# Ex.No:4(B) INTRODUCTION TO JAVA INHERITANCE
-
+# Ex.No:4(A)  JAVA CONSTRUCTOR
 ## AIM:
-To create  a Java program to perform the inheritance concept for employee details.
-
+To create a Java class Calculator with a static method powerInt(int num1, int num2) that calculates the power of the given numbers using the Math.pow() function. The class also uses a constructor to initialize a value as 0.
 ## ALGORITHM :
-1.	Start the Program
-2.	Define class `Person`:
--	a) Declare `emp_id`, `name`, and `dept` as instance variables
-3.	Define class `Employee` that extends `Person`:
--	a) Define method `getDetails()`:
--	i) Create a `Scanner` object `sc`
--	ii) Read `name`, `emp_id`, and `dept` from user input
--	b) Define method `display()`:
--	i) Print the `name`, `emp_id`, and `dept`
-4.	Define `Main` class with `main` method:
--	a) Create an `Employee` object `emp`
--	b) Call `getDetails()` to input employee details
--	c) Call `display()` to output employee details
-5.	End
+1.Create the Calculator Class: 
 
+2.Define a constructor that initializes the value as 0.  
 
+3.Define a static method powerInt(int num1, int num2) that calculates the power of num1 raised to num2 using the Math.pow() function.  
 
+4.Use the Constructor: Initialize the class with a value of 0.  
 
+5.Calculate the Power: Use Math.pow(num1, num2) to calculate the power of the two numbers.  
 
-
-
+6.Print the Result: Print the calculated result.  
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Program to implement a Constructor using Java
+Developed by: DHARMARAJ S
+RegisterNumber: 212222240025
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.lang.Math;
+public class Calculator {
+    private int result;
 
-
-
-
-
+public Calculator(int num1,int num2){
+    this.result=(int)Math.pow(num1, num2);
+}
+public int getResult(){
+    return this.result;
+}
+public static void main(String[] args) {
+    Calculator calculator = new Calculator(10, 2);
+    System.out.println(calculator.getResult());
+	}
+}
+```
 
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/e677c65a-5740-4531-8276-7c516d3bf980)
 
 ## RESULT:
-Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
+The Calculator class successfully calculates the power of 10 raised to 2, resulting in 100 using the static method powerInt() and the Math.pow() function.
 
