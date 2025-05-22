@@ -1,23 +1,24 @@
-# Ex.No:4(A)  JAVA CONSTRUCTOR
+# Ex.No:4(B) INTRODUCTION TO JAVA INHERITANCE
+
 ## AIM:
-To create a Java class Calculator with a static method powerInt(int num1, int num2) that calculates the power of the given numbers using the Math.pow() function. The class also uses a constructor to initialize a value as 0.
+To create a parent class Animal with methods eat() and sleep(), and a child class Bird that inherits from Animal and adds a fly() method. The program demonstrates invoking methods from both classes using their respective instances.
 ## ALGORITHM :
-1.Create the Calculator Class: 
+1.Create the Animal Class:  
+  Define two methods eat() and sleep() in the Animal class.  
+2.Create the Bird Class (Child Class):  
+  Inherit from the Animal class.  
+  Define a new method fly() specific to the Bird class.  
+3.Create Instances:  
+  Instantiate an Animal object and invoke the eat() and sleep() methods.  
+  Instantiate a Bird object and invoke the eat(), sleep(), and fly() methods.  
+4.Invoke the Methods:  
+  Call the appropriate methods on each instance to demonstrate method invocation.  
 
-2.Define a constructor that initializes the value as 0.  
-
-3.Define a static method powerInt(int num1, int num2) that calculates the power of num1 raised to num2 using the Math.pow() function.  
-
-4.Use the Constructor: Initialize the class with a value of 0.  
-
-5.Calculate the Power: Use Math.pow(num1, num2) to calculate the power of the two numbers.  
-
-6.Print the Result: Print the calculated result.  
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Constructor using Java
+Program to implement a Inheritance using Java
 Developed by: DHARMARAJ S
 RegisterNumber: 212222240025
 */
@@ -25,28 +26,42 @@ RegisterNumber: 212222240025
 
 ## Sourcecode.java:
 ```
-import java.lang.Math;
-public class Calculator {
-    private int result;
+class Animal{
+    
+   void eat(){
+       System.out.println("Calling Eat Method");
+   }
+   void sleep(){
+       System.out.println("Calling Sleep Method");
+   }
+}
 
-public Calculator(int num1,int num2){
-    this.result=(int)Math.pow(num1, num2);
+class Bird extends Animal{
+   
+  void fly(){
+      System.out.println("Calling Fly Method");
+  }
 }
-public int getResult(){
-    return this.result;
-}
-public static void main(String[] args) {
-    Calculator calculator = new Calculator(10, 2);
-    System.out.println(calculator.getResult());
-	}
-}
+
+public class Ans{
+  public static void main(String[] args){
+      
+    Bird obj=new Bird();
+    obj.eat();
+    obj.sleep();
+    obj.eat();
+    obj.sleep();
+    obj.fly();
+    
+  }
+}	
+
 ```
 
-
 ## OUTPUT:
+![2](https://github.com/user-attachments/assets/a8d22a5f-82f6-4c38-b049-e9c6d61bbc20)
 
-![image](https://github.com/user-attachments/assets/e677c65a-5740-4531-8276-7c516d3bf980)
 
 ## RESULT:
-The Calculator class successfully calculates the power of 10 raised to 2, resulting in 100 using the static method powerInt() and the Math.pow() function.
+The Animal class successfully demonstrates the invocation of eat() and sleep() methods, and the Bird class extends Animal to add a fly() method, with all methods being invoked successfully using instances of each class.
 
