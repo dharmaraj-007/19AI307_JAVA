@@ -4,41 +4,62 @@
 To Create a Java program to implement super keyword in constructor.
 
 ## ALGORITHM :
-1.  Start the Program.
-2.	Define class `College`:
--	a) Define method `display()` that prints "I am a Vehicle"
-3.	Define class `Student` that extends `College`:
--	a) Override method `display()` to print "I am a Car"
--	b) Define method `print()`:
--	i) Call `super.display()` to invoke `display()` from `College` class
--	ii) Call `this.display()` to invoke `display()` from `Student` class
-4.	Define `Main` class with `main` method:
--	a) Create a `Student` object `sc`
--	b) Call `sc.print()` to execute the `print()` method
-5.	End
+STEP 1:Start the program.
 
+STEP 2:Define the base class Sports with a constructor that prints "Sports Class".
 
+STEP 3:Create a subclass Indoor that extends Sports and calls super() to invoke the Sports constructor, then prints "Indoor Games Class".
 
+STEP 4:Create another subclass Chess that extends Indoor, calls super() to invoke the Indoor constructor, and prints "Chess Class".
 
+STEP 5:Define the Main class with the main method.
 
+STEP 6:Create an object of Chess inside main, which triggers constructor chaining:
 
+- Chess() → Indoor() → Sports().
+
+STEP 7:Each constructor prints a message, so the output displays messages from all three classes in the order of inheritance.
+
+STEP 8:End the program.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
 
+```
+class Sports {
+Sports(){
+    System.out.println("Sports Class");
+}
+  
+  }
 
 
-
-
-
+class Indoor extends Sports {
+    Indoor(){
+super();
+  System.out.println("Indoor Games Class");
+  }
+}
+class Chess extends Indoor {
+Chess(){
+ super();
+ System.out.println("Chess Class");
+  }
+}
+public class Main {
+  public static void main(String[] args) {
+   Chess ch=new Chess();
+  }
+}
+```
 
 ## OUTPUT:
 
