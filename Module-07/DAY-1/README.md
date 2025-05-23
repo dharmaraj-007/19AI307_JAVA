@@ -14,31 +14,37 @@
 -	a) If division by zero occurs, print "You Shouldn't divide a number by zero"
 6.	End
 
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        try{
+            int c=a/b;
+            System.out.println("Result: "+c);
+        }
+        catch(ArithmeticException e){
+            System.out.println("Arithmetic Exception: Number should not divide by zero");
+        }
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/9c9a39f6-c651-42c3-8f67-70d65d78047b)
 
 
 ## RESULT:
