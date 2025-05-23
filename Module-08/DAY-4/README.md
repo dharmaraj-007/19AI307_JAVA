@@ -19,21 +19,32 @@
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
+```
 
-
-
-
-
-
-
+      FileInputStream fir=new FileInputStream("sample.txt");
+      BufferedInputStream bir=new BufferedInputStream(fir);
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      bir.skip(n);
+      int a=0;
+      System.out.println("Contents after skipping "+n+" bytes:");
+      while((a=bir.read())!=-1){
+          System.out.print((char)a);
+      }
+      bir.close();
+      fir.close();
+             
+ 
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/792d5af8-4e3a-470e-8f94-5c2a144fdc3c)
 
 
 ## RESULT:
