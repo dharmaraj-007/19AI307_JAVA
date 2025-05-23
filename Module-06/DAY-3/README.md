@@ -1,45 +1,69 @@
 # Ex.No:6(C)             HIERARCHICAL INHERITANCE 
 
 ## AIM:
-  To Develop a Java program to perform Hierarchical Inheritance for below scenario Parent have method " display" to display "This is Parent Class". Child1 have method "print" to display "This is Child1 Class" Child1 have method "print" to display "Child2 Class". In Main create object for both child1 and child2 and access its member function.
+ Write a Java Program for Media Class have constructor to display "Parent Class is Media".Magazine Class constructor call its parent constructor and display "Magazine is the one of the Child of Media Class".Channel Class constructor call its parent constructor and display "Channel is the one of the Child of Media Class".In Main class create object for Child class and access its corresponding Constructor
 
 
 ## ALGORITHM :
-1.  Start the Program
-2.	Define class `Parent`:
--	a) Method `show()` to print "This is Parent Class"
-3.	Define class `Child1` that extends `Parent`:
--	a) Method `print()` to print "This is Child1 Class"
-4.	Define class `Child2` that extends `Parent`:
--	a) Method `display()` to print "This is Child2 Class"
-5.	In `Main` class `main` method:
--	a) Create `Child1` object `child` and call `show()` and `print()` on it
--	b) Create `Child2` object `chi` and call `show()` and `display()` on it
-6.	End
+1. Start the program.
 
+2. Define the parent class Media with a constructor that prints "Parent Class is Media".
 
+3. Define the child class Magazine that extends Media. In its constructor, call super() to invoke the parent constructor, then print "Magazine is the one of the Child of Media Class".
 
+4. Define another child class Channel that extends Media. In its constructor, call super() and then print "Channel is the one of the Child of Media Class".
 
+5. In the main method, create an object of the Magazine class.
+
+6. Create an object of the Channel class.
+
+7. Observe the output showing the order of constructor calls and printed messages.
+
+8. End the program.
 ## PROGRAM:
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
 
+```
+class Media {
+    Media() {
+        System.out.println("Parent Class is Media");
+    }
+}
+class Magazine extends Media {
+    Magazine() {
+          super(); 
+        System.out.println("Magazine is the one of the Child of Media Class");
+    }
+}
 
+class Channel extends Media {
+    Channel() {
+        super(); 
+        System.out.println("Channel is the one of the Child of Media Class");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Magazine magazine = new Magazine();
+        Channel channel = new Channel();
+    }
+}
 
-
+```
 
 
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/66e079a6-8028-4185-9b15-e48144ac264e)
 
 ## RESULT:
 Thus the java program for Hierarchical inheritance was executed successfully.
