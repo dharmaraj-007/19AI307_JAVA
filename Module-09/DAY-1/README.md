@@ -14,21 +14,27 @@ To create a Java Program to store a String Value in a file "testout.txt" using D
  ```
 /*
 Program to implement a DATA I/O STREAM using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
+```
+FileOutputStream fos=new FileOutputStream("testout.txt");
+DataOutputStream dos=new DataOutputStream(fos);
+Scanner sc=new Scanner(System.in);
+String str=sc.nextLine();
+System.out.println("Successfully Completed");
+dos.writeUTF(str);
 
+dos.close();
+fos.close();
 
-
-
-
-
-
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/5e1143c3-cf0c-465a-8342-ac64664ed1ec)
 
 
 ## RESULT:
