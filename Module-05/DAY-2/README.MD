@@ -16,32 +16,48 @@ To Create a java program to display the value of volume of cylinder get the radi
 4.	End
 
 
-
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a tightly encapsulated class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber: 212222240025
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```import java.util.*;
+class Cylinder{
+    private double radius;
+    private double height;
+    public void setRadius(double radius){
+        this.radius=radius;
+    }
+    public void setHeight(double height){
+        this.height=height;
+    }
+    public double getVolume(){
+        double pi=22.0/7.0;
+        return pi*radius*radius*height;
+    }
+}
+public class CyclinderVolume{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        Cylinder cylinder = new Cylinder();
+        double radius=sc.nextDouble();
+        cylinder.setRadius(radius);
+        double height=sc.nextDouble();
+        cylinder.setHeight(height);
+        System.out.println("volume of Cylinder is: "+cylinder.getVolume());
+        
+    }
+}
+```
 
 ## OUTPUT:
 
+![s](https://github.com/user-attachments/assets/a21a3e7f-4dc7-4341-b119-6c9da26c6409)
 
 
 ## RESULT:
