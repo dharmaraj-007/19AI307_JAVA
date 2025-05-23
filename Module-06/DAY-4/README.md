@@ -15,22 +15,37 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
+```
+File 1
+package pack;
 
+public class A {
+    public void msg() {
+        System.out.println("Hello from class A in package pack.");
+    }
+}
+File 2
+package mypack;
 
+import pack.A;
 
-
-
-
+public class B {
+    public static void main(String[] args) {
+        A a = new A();
+        a.msg();
+    }
+}
+```
 
 ## OUTPUT:
 
-
+Hello from class A in package pack.
 
 ## RESULT:
 Thus, the program has accessed the package from another package has been done successfully.
