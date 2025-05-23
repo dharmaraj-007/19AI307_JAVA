@@ -1,43 +1,68 @@
 # Ex.No:6(A)  INNER CLASS
 ## AIM:
-To create a Java Program to implement Method Local Inner Class.
+Write a Java Program using Method Local Inner Class 
 
 ## ALGORITHM :
-1.  Start the Program.
-2.	Define outer class `name`:
--	a) Declare `String name` and initialize it to "Johnson"
--	b) Define inner class `inner`:
-- i) Define method `display()` that prints "Name given in Outer Class is " followed by `name`
-3.	In the `main` method of `name` class:
--	a) Create an instance `obj` of the `name` class
--	b) Create an instance `obj2` of the inner class `inner` using `obj`
--	c) Call `display()` on `obj2` to print the outer class name
-4.	End
 
+1. Start the program.
 
+2. Define the class MethodLocal with an instance variable value initialized to "Outer Class Variable".
 
+3. Define the method display() inside MethodLocal:
 
+- Declare a local variable value initialized to "Inner Class Variable".
 
+- Define a method-local inner class Inner with a method print() that:
 
+- Prints the outer class’s value using MethodLocal.this.value.
+
+- Prints the local variable value.
+
+4. Create an instance of the inner class Inner inside the display() method.
+
+5. Call the print() method of the inner class instance to display both values.
+
+6. In the main method, create an object of MethodLocal.
+
+7. Invoke the display() method on the object to execute the print operations.
+
+8. End the program.
 ## PROGRAM:
  ```
 /*
 Program to implement a Inner Class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DHARMARAJ S
+RegisterNumber:  212222240025
 */
 ```
 
 ## Sourcecode.java:
 
+```
+public class MethodLocal{
+    String value = "Outer Class Variable";
+    public void display() {
+        String value = "Inner Class Variable";
+        class Inner {
+            public void print() {
+                System.out.println(MethodLocal.this.value); 
+                System.out.println(value);
+            }
+        }
+        Inner innerObj = new Inner();
+        innerObj.print();
+    }
+    public static void main(String[] args) {
+        MethodLocal obj = new MethodLocal();
+        obj.display();
+    }
+}
 
-
-
-
-
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/928bcc18-581d-4aa9-abef-69f0e00744f3)
 
 
 ## RESULT:
